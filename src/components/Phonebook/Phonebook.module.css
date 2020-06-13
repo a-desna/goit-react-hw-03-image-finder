@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.phonebook {
+  width: 400px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  color: #223c5d;
+}
+
+.title {
+  font-weight: 700;
+  text-align: center;
+}
+
+.form {
+  border: 1px solid #7a4d1a;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.formBtn {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.filterForm {
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  border: 1px solid #bfc6cf;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listItemName,
+.listItemNumber {
+  padding: 5px;
+}
+
+.listItemBtn {
+  display: block;
+  width: 70px;
+  margin-left: auto;
+}
