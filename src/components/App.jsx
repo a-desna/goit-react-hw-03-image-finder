@@ -1,11 +1,10 @@
 import React, { Fragment } from 'react';
-
-import Phonebook from './Phonebook/Phonebook';
+import ImageFinder from './ImageFinder/ImageFinder';
 
 function App() {
   return (
     <Fragment>
-      <Phonebook />
+      <ImageFinder />
     </Fragment>
   );
 }
